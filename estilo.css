@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 2px;
+    text-align: center;
+}
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(36, 61, 62);
+}
+section {
+    margin: 50px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    align-items:center;
+    width: 50%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: cadetblue;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product p {
+    color: cadetblue;
+    font-size: 16px;
+}
+
+.buy-btn {
+    background: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.buy-btn:hover {
+    background: cadetblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: cadetblue;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.logo {
+    align-items: start;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    }
+h2 {
+    align-items: center;
+    color: cadetblue;
+    font-size: 30px;
+
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: cadetblue;
+    background-color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: white;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    background-color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.product {
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    align-items:baseline;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Distribuye el espacio entre los productos */
+    align-items: center; /* Centra verticalmente los productos */
+    flex-wrap: nowrap; /* Evita que los productos se envuelvan a la siguiente línea */
+}
+h5 {
+    color: palevioletred;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Estilos generales para el aside */
+aside {
+    width: 200px; /* Ancho del aside */
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    position: fixed; /* Fija el aside en la pantalla */
+    right: 20px; /* Distancia desde el borde derecho */
+    top: 50%; /* Centra verticalmente */
+    transform: translateY(-50%); /* Ajuste fino para centrar */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+aside h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+    align-items: center;
+    margin: 20px;
+}
+
+aside img {
+    align-items:center;
+    width: 50%;
+    border-radius: 10px;
+}
